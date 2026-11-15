@@ -5,8 +5,8 @@ import pandas as pd
 import streamlit as st
 from modeling import prepare, train_models
 
-st.set_page_config(page_title='Bank Customer Churn', page_icon='🏦', layout='wide')
-st.title('🏦 Bank Customer Churn')
+st.set_page_config(page_title='Bank Customer Churn', page_icon='📈', layout='wide')
+st.title('📈 Bank Customer Churn')
 st.caption('Eksplorasi nasabah • Perbandingan model • Prediksi churn')
 upload = st.sidebar.file_uploader('Unggah CSV nasabah', type=['csv'])
 base = Path(__file__).parent
